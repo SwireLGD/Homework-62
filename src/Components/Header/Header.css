@@ -1,0 +1,32 @@
+.navItem a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+}
+  
+.navItem a.active {
+    text-decoration: underline;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+}

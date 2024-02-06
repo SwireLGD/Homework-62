@@ -1,0 +1,15 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.HomeTitle {
+    font-size: 45px;
+    font-weight: normal;
+}
+
+.HomeText {
+    font-size: 20px;
+}
